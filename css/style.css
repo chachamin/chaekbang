@@ -94,4 +94,23 @@ hgroup h3 {
 
 .story_box {
     position: relative;
+    height: 470px;
+}
+
+.story_box img {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: -130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.story_box p {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.125rem;
 }
