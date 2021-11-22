@@ -22,7 +22,7 @@ a, a:link {
 }
 
 .inner_header {
-    width: 1200px;
+    width: 1240px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -47,12 +47,51 @@ a, a:link {
     height: 40px;
 }
 
+.lnb {
+    display: none;
+}
+
 .hero {
     width: 100%;
     height: 550px;
+    overflow: hidden;
 }
 
 .arti_wrap {
-    width: 1200px;
+    width: 1240px;
     margin: 0 auto;
+}
+
+hgroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0;
+}
+
+hgroup h2 {
+    margin-right: 20px;
+    font-size: 1.725rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+hgroup h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 16px;
+    background: #000;
+    top: 34%;
+    right: -11px;
+    transform: rotate(45deg);
+}
+
+hgroup h3 {
+    font-size: 1.5rem;
+}
+
+.story_box {
+    position: relative;
 }
