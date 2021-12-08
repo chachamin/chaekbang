@@ -15,19 +15,20 @@ a, a:link {
     display: none;
 }
 
-.header_wrap {
+.hero {
     width: 100%;
-    height: 50px;
+    height: 550px;
     overflow: hidden;
-    background: linear-gradient( to top, #000 40%,rgb(122, 122, 122) )
 }
 
-.inner_header {
-    width: 1240px;
-    margin: 0 auto;
+.header_wrap {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    background: #c2bea2;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     color: #fff;
 }
 
@@ -46,17 +47,10 @@ a, a:link {
 #gnb > li {
     width: 100px;
     height: 40px;
+    text-align: center;
+    line-height: 40px;
 }
 
-.lnb {
-    display: none;
-}
-
-.hero {
-    width: 100%;
-    height: 550px;
-    overflow: hidden;
-}
 
 hgroup {
     display: flex;
@@ -132,8 +126,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    left: 70%;
-    transform: translateX(-70%);
+    left: 50%;
+    transform: translateX(-50%);
     top: 200px;
     background: #e6e5e0;
 }
@@ -186,8 +180,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    right: 70%;
-    transform: translateX(70%);
+    left: 50%;
+    transform: translateX(-50%);
     top: 200px;
     background: #f7f5dc;
 }
@@ -265,8 +259,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    left: 70%;
-    transform: translateX(-70%);
+    left: 50%;
+    transform: translateX(-50%);
     top: 200px;
     background: #dfddc5;
 }
