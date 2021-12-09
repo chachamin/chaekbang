@@ -337,6 +337,7 @@ hgroup h3 {
     font-size: 0.813rem;
     margin: 10px 0 0 20px;
     position: relative;
+    transition: all .3s;
 }
 
 .notice_list::before{
@@ -350,12 +351,16 @@ hgroup h3 {
     transform: translate(2%, -50%);
 }
 
+.notice_list li:hover {
+    font-weight: bold;
+}
+
 .sns {
     width: 30%;
 }
 
 .sns_list {
-    font-size: 1.125rem;
+    font-size: 1.250rem;
     display: flex;
 }
 
@@ -367,4 +372,7 @@ hgroup h3 {
     width: 30%;
 }
 
-
+.terms {
+    display: flex;
+    
+}
