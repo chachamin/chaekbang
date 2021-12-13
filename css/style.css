@@ -148,8 +148,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 70%;
+    transform: translateX(-70%);
     top: 200px;
     background: #e6e5e0;
 }
@@ -202,8 +202,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 30%;
+    transform: translateX(-30%);
     top: 200px;
     background: #f7f5dc;
 }
@@ -281,8 +281,8 @@ hgroup h3 {
     width: 780px;
     height: 400px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 70%;
+    transform: translateX(-70%);
     top: 200px;
     background: #dfddc5;
 }
